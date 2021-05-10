@@ -1,0 +1,113 @@
+
+.row_content{
+    margin: 0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height: 400px;
+    margin-bottom: 5px;
+}
+
+.navbar-light{
+    background-color:whitesmoke;
+}
+
+
+.carousel {
+    background: black;
+}
+
+.carousel-item {
+    height: 480px;
+  }
+.carousel-item img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-height: 100px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.carousel-caption{  
+    text-align:left;
+    min-height: 350px;
+    color: black;
+}
+
+.row-deals{
+    margin-top: 30px;
+    border-bottom: 1px ridge;
+}
+
+.notify-badge{
+    position: absolute;
+    background:orange;
+    text-align: center;
+    line-height: 2rem;;
+    border-radius: 50%;
+    color:black;
+}
+
+.discount-badge{
+    right: 20px;
+    position: absolute;
+    background:orange;
+    text-align: right;
+    line-height: 2rem;;
+    border-radius: 50%;
+    color:black;  
+}
+
+.btn{
+    margin:auto;
+    text-align: right;
+    background-color: white; 
+    border-color: rgb(243, 209, 145); 
+    font-size: 10px;
+}
+
+.jumbotron{
+    padding: 20px 30px 20px 30px;
+    margin: 0px auto;
+    color: black;
+    width: 1200px;
+    height:300px;
+}
+
+.row-headers{
+    margin: 0px auto;
+    padding: 10px 0px 10px 0px;
+    border-bottom: 0px ridge;
+    min-height: 200px;
+    margin-bottom: 5px;
+}
+
+.media-body{
+    min-height: 50px;
+    margin-top: 25px;
+}
+
+.column{
+    border: 1px;
+    width:90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box{
+    border:1px ridge;
+    flex-wrap: wrap;
+    display:flex;
+}
+
+.footer{
+    background-color: rgb(230, 182, 94);
+    margin: 20px auto;
+    padding: 20px 0px 20px 0px;
+    border-width: 50px;
+}
